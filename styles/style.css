@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/*Header*/
+
+header{
+    text-align: center;
+    background-image: url(../media/Header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 1%;
+    position: relative;
+}
+
+header p{
+    font-family: "Header";
+    font-size: 20rem;
+    color: white;
+    margin: 0;
+}
+
+/*Header - Menu*/
+
+header nav{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav ul{
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: "Header_Menu";
+    padding: 6px 22px 0px;
+    background-color: #333333;
+    min-width: 144px;
+    box-sizing: border-box;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+header nav ul li a:hover{
+    background-color: #cecece;
+    color: #2f2f2f;
+}
+
+/*Article*/
+
+article{
+    flex-grow: 1;
+    background-color: #cecece;
+}

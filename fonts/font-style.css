@@ -7,3 +7,8 @@
     font-family:"Header_Menu";
     src:url(DrukCy-Medium.woff);
 }
+
+@font-face{
+    font-family:"footer";
+    src:url(RussoOne-Regular.ttf);
+}
